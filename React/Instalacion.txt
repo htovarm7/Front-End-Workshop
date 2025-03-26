@@ -1,0 +1,35 @@
+Para instalar React en una aplicación web, sigue estos pasos:
+
+1. **Instalar Node.js y npm**:
+    Asegúrate de tener Node.js y npm (Node Package Manager) instalados en tu sistema. Puedes descargarlos desde [nodejs.org](https://nodejs.org/).
+
+2. **Crear una nueva aplicación React**:
+    Utiliza el comando `npx` para crear una nueva aplicación React con Create React App. Abre una terminal y ejecuta el siguiente comando:
+    ```
+    npx create-react-app nombre-de-tu-aplicacion
+    ```
+    Reemplaza `nombre-de-tu-aplicacion` con el nombre que desees para tu proyecto.
+
+3. **Navegar al directorio del proyecto**:
+    Una vez que la creación del proyecto haya finalizado, navega al directorio del proyecto:
+    ```
+    cd nombre-de-tu-aplicacion
+    ```
+
+4. **Iniciar la aplicación React**:
+    Para iniciar la aplicación React y ver cómo se ve en el navegador, ejecuta el siguiente comando:
+    ```
+    npm start
+    npm run dev
+    ```
+    Esto abrirá una nueva pestaña en tu navegador predeterminado con la aplicación React en ejecución.
+
+5. **Estructura del proyecto**:
+    La estructura básica del proyecto creado con Create React App incluye los siguientes directorios y archivos:
+    - `public/`: Contiene el archivo `index.html` y otros activos estáticos.
+    - `src/`: Contiene los archivos fuente de tu aplicación React, incluyendo `App.js`, `index.js`, y otros componentes.
+
+6. **Editar y desarrollar tu aplicación**:
+    Puedes comenzar a editar los archivos en el directorio `src/` para desarrollar tu aplicación React. Los cambios se reflejarán automáticamente en el navegador gracias a la funcionalidad de recarga en caliente (hot reloading).
+
+¡Y eso es todo! Ahora tienes una aplicación React básica en funcionamiento y puedes comenzar a desarrollar tu proyecto web.
