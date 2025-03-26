@@ -17,7 +17,7 @@ Para instalar React en una aplicación web, sigue estos pasos:
     ```
 
 4. **Iniciar la aplicación React**:
-    Para iniciar la aplicación React y ver cómo se ve en el navegador, ejecuta el siguiente comando:
+    Para iniciar la aplicación Reactnpm y ver cómo se ve en el navegador, ejecuta el siguiente comando:
     ```
     npm start
     npm run dev
