@@ -1,0 +1,69 @@
+/* Aqui se definen los estilos de la pagina web */
+
+/*
+Esto es la estructura de un archivo CSS
+
+selector {
+    propiedad: valor;
+}
+*/
+
+
+/* Esto es para el body, es decir que valores del texto/body se cambiaran*/
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Esto es para el h1, es decir que valores del texto h1 se cambiaran*/
+h1 {
+    color: blue;
+}
+
+p {
+    color: blue; /* Color del texto */
+    font-size: 18px; /* Tamaño de la fuente */
+    margin: 10px; /* Margen exterior */
+    padding: 5px; /* Espaciado interno */
+    border: 1px solid black; /* Borde de 1px sólido negro */
+}
+
+/*Diferentes formas de referenciar*/
+
+/*Esto lo referencias dentro del style en los diferentes <>*/
+.texto-rojo {
+    color: red;
+}
+
+/* Aplica estilos a un solo elemento con un id único, lo referenciamos como un objeto definido para algo */
+#titulo {
+    font-size: 24px;
+}
+
+/* Aplica estilos a elementos dentro de otro elemento. */
+div p {
+    color: green;
+}
+
+/* Agrupacion */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* FlexBox es un modelo de diseño que facilita la alineación de elementos en una fila o columna. */
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+/* CSS Grid permite crear diseños de cuadrícula con filas y columnas.*/
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    grid-template-rows: auto;
+    gap: 10px; /* Espacio entre elementos */
+}
+
+
